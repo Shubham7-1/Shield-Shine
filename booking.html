@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Service - Tiwari's Shield & Shine</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Tiwari's Shield & Shine Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="booking.html">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="booking-form">
+        <h2>Book a Service</h2>
+        <form action="#">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="service">Select Service:</label>
+            <select id="service" name="service">
+                <option value="cleaning">Home Cleaning</option>
+                <option value="maintenance">Maintenance Services</option>
+                <option value="specialized">Specialized Services</option>
+            </select>
+            
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="message">Additional Details:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tiwari's Shield & Shine. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
